@@ -1,0 +1,15 @@
+.button {
+    font-family: "Source Sans Pro", sans-serif;
+    vertical-align: middle;
+    transition: all 0.4s ease-in-out;
+
+    @apply .inline-block .text-center .font-semibold .bg-transparent .py-3 .px-10 .cursor-pointer .rounded-lg;
+}
+
+.button-primary {
+    @apply .bg-red .text-white;
+}
+
+.button-shrink {
+    @apply .py-2;
+}
