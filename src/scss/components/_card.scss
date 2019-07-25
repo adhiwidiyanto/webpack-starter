@@ -1,0 +1,15 @@
+.card {
+    @apply .relative .w-full .flex .bg-white .border .border-gray-200 .rounded;
+}
+
+.card-body {
+    @apply .p-4 .text-gray-600 .flex-auto .font-openSans;
+}
+
+.card-title {
+    @apply .mb-3 .text-black .text-lg .font-semibold;
+}
+
+.card-text {
+    @apply .mb-3;
+}
